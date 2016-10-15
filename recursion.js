@@ -8,6 +8,7 @@ function range(start, end) {
 
 }
 
+console.log(range(1,10)); // [2,3,4,5,6,7,8,9]
 
 // Write a recursive and an iterative Fibonacci method.
 // The method should take in an integer n and return the first n Fibonacci
@@ -17,6 +18,9 @@ function range(start, end) {
 function fib(n) {
 
 }
+
+console.log(fib(6)) // [1,1,2,3,5,8]
+
 
 // Write a recursive Binary Search. Note that binary search only works on
 // sorted arrays. Make sure to return the location of the found object

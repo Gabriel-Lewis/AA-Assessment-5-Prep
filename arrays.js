@@ -21,7 +21,7 @@ console.log([1, 1, 2, 2, 3, 3, 4, 4, 5, 5].myUnique());
 //
 //
 
-function twoSum() {
+function twoSum(arr) {
 
 }
 
@@ -33,18 +33,18 @@ Array.prototype.twoSum = function () {
 
 }
 
-console.log([-1, 0, 2, -2, 1].twoSum());
+console.log([-1, 0, 2, -2, 1].twoSum()); // => [[0, 4], [2, 3]]
 
 // Write a method, my_transpose, which will convert between the
 // row-oriented and column-oriented representations.
 //
 //
 
-function myTranspose() {
+function myTranspose(arr) {
 
 }
 
-console.log(my_transpose([
+console.log(myTranspose([
    [0, 1, 2],
    [3, 4, 5],
    [6, 7, 8]

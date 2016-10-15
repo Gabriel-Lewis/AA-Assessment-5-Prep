@@ -4,7 +4,7 @@
 // returns an array of all numbers between.
 //
 
-function range() {
+function range(start, end) {
 
 }
 
@@ -14,7 +14,7 @@ function range() {
 // numbers in an array.
 //
 
-function fib() {
+function fib(n) {
 
 }
 
@@ -25,7 +25,7 @@ function fib() {
 // Hint: you will probably want to use subarrays.
 //
 
-function bsearch() {
+function bsearch(arr, target) {
 
 }
 
@@ -40,7 +40,7 @@ bsearch([1, 2, 3, 4, 5, 7], 6) // => nil
 // Write a recursive MergeSort
 // hint: The base cases are for arrays of length zero or one.
 
-function mergeSort() {
+function mergeSort(array) {
 
 }
 
@@ -48,11 +48,13 @@ function merge() {
 
 }
 
+console.log(mergeSort([192,28,43,29,1,2,200,4])); // [1,2,4,28,29,43,192,200]
+
 
 // Write a method, subsets, that will return all subsets of an array.
 //
 
-function subsets() {
+function subsets(array) {
 
 }
 

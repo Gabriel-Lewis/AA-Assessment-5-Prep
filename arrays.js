@@ -4,7 +4,7 @@
 function myUniq(arr) {
 
 }
-console.log(myUniq([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]));
+console.log(myUniq([1, 1, 2, 2, 3, 3, 4, 4, 5, 5])); // [1,2,3,4,5]
 
 // Write a unique method for arrays directly on the array class
 //
@@ -13,7 +13,7 @@ Array.prototype.myUnique = function () {
 
 }
 
-console.log([1, 1, 2, 2, 3, 3, 4, 4, 5, 5].myUnique());
+console.log([1, 1, 2, 2, 3, 3, 4, 4, 5, 5].myUnique()); // [1,2,3,4,5]
 
 
 // Write a new twoSum(Array) method that finds all pairs of

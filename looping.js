@@ -7,6 +7,8 @@ function fizzBuzz(array) {
 
 }
 
+console.log(fizzBuzz([12, 15, 3, 10, 2, 30, 7])); // [12, 3, 10]
+
 
 function isPrime(number) {
 

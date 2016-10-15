@@ -18,3 +18,9 @@ function substrings(string) {
 }
 
 console.log(substrings("hello")); // ['h','he','hel','hell','hello','e','el','ell','ello','l','ll','llo','l','lo','o']
+
+String.prototype.substrings = Function () {
+  
+}
+
+console.log("hello".substrings();) // ['h','he','hel','hell','hello','e','el','ell','ello','l','ll','llo','l','lo','o']

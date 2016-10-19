@@ -38,8 +38,8 @@ console.log(bsearch([2, 3, 4, 5], 3)); // => 1
 console.log(bsearch([2, 4, 6, 8, 10], 6)); // => 2
 console.log(bsearch([1, 3, 4, 5, 9], 5)); // => 3
 console.log(bsearch([1, 2, 3, 4, 5, 6], 6)); // => 5
-console.log(bsearch([1, 2, 3, 4, 5, 6], 0)); // => nil
-console.log(bsearch([1, 2, 3, 4, 5, 7], 6)); // => nil
+console.log(bsearch([1, 2, 3, 4, 5, 6], 0)); // => -1
+console.log(bsearch([1, 2, 3, 4, 5, 7], 6)); // => -1
 
 // Write a recursive MergeSort
 // hint: The base cases are for arrays of length zero or one.

@@ -19,7 +19,7 @@ function fib(n) {
 
 }
 
-console.log(fib(6)) // [1,1,2,3,5,8]
+console.log(fib(6)); // [1,1,2,3,5,8]
 
 
 // Write a recursive Binary Search. Note that binary search only works on
@@ -33,13 +33,13 @@ function bsearch(arr, target) {
 
 }
 
-bsearch([1, 2, 3], 1) // => 0
-bsearch([2, 3, 4, 5], 3) // => 1
-bsearch([2, 4, 6, 8, 10], 6) // => 2
-bsearch([1, 3, 4, 5, 9], 5) // => 3
-bsearch([1, 2, 3, 4, 5, 6], 6) // => 5
-bsearch([1, 2, 3, 4, 5, 6], 0) // => nil
-bsearch([1, 2, 3, 4, 5, 7], 6) // => nil
+console.log(bsearch([1, 2, 3], 1)); // => 0
+console.log(bsearch([2, 3, 4, 5], 3)); // => 1
+console.log(bsearch([2, 4, 6, 8, 10], 6)); // => 2
+console.log(bsearch([1, 3, 4, 5, 9], 5)); // => 3
+console.log(bsearch([1, 2, 3, 4, 5, 6], 6)); // => 5
+console.log(bsearch([1, 2, 3, 4, 5, 6], 0)); // => nil
+console.log(bsearch([1, 2, 3, 4, 5, 7], 6)); // => nil
 
 // Write a recursive MergeSort
 // hint: The base cases are for arrays of length zero or one.
@@ -62,7 +62,7 @@ function subsets(array) {
 
 }
 
-subsets([]) // => [[]]
-subsets([1]) // => [[], [1]]
-subsets([1, 2]) // => [[], [1], [2], [1, 2]]
-subsets([1, 2, 3]) // => [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
+console.log(subsets([])); // => [[]]
+console.log(subsets([1])); // => [[], [1]]
+console.log(subsets([1, 2])); // => [[], [1], [2], [1, 2]]
+console.log(subsets([1, 2, 3])); // => [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
